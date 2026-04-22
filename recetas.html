@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="cargarRecetas(); cargarDesdeJSON()">
+
+<h1>Recetas disponibles</h1>
+
+<input type="text" id="buscar" placeholder="Buscar receta..." oninput="filtrarRecetas()">
+
+<div id="listaRecetas"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

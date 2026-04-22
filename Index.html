@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Fáciles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body" onload="funPaginaCargada()">
+
+    
+    <div id="barraScroll"></div>
+
+    <header>
+        <h1>Recetas Fáciles para Estudiantes</h1>
+        <nav id="menuDesplegable" class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="recetas.html">Recetas</a>
+            <a href="agregar.html">Añadir Receta</a>
+        </nav>
+
+       
+        <button id="btnMenu" onclick="toggleMenu()">☰</button>
+    </header>
+
+    <main>
+        <button onclick="modoOscuro()" class="btn">Modo oscuro</button>
+        <button onclick="mostrarAlerta()" class="btn">Mostrar mensaje</button>
+
+        <h2 id="mensajeBienvenida">¡Bienvenido a tu web de recetas!</h2>
+
+        <p>
+            Aquí encontrarás recetas rápidas, baratas y perfectas para estudiantes. 
+            Puedes explorar recetas, añadir las tuyas y filtrarlas según tus gustos.
+        </p>
+        
+        <div class="slider">
+            <img id="imgSlider" src="assets/1.jpg" alt="Foto de receta">
+            <button onclick="anterior()">⟨</button>
+            <button onclick="siguiente()">⟩</button>
+        </div>
+
+        
+    </main>
+       
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

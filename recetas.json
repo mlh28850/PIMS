@@ -1,0 +1,43 @@
+
+[
+    {
+        "nombre": "Pasta rápida con tomate",
+        "descripcion": "Pasta cocida con salsa de tomate y ajo lista en 12 minutos."
+    },
+    {
+        "nombre": "Tortilla francesa",
+        "descripcion": "Solo necesitas 2 huevos, sal y una sartén."
+    },
+    {
+        "nombre": "Sandwich mixto",
+        "descripcion": "Jamón y queso dorados a la sartén, crujiente y fácil."
+    },
+    {
+        "nombre": "Arroz con atún",
+        "descripcion": "Arroz blanco mezclado con atún y un toque de mayonesa."
+    },
+    {
+        "nombre": "Huevos revueltos",
+        "descripcion": "Huevos cremosos listos en 3 minutos."
+    },
+    {
+        "nombre": "Patatas al microondas",
+        "descripcion": "Patatas blanditas en 7 minutos con aceite y sal."
+    },
+    {
+        "nombre": "Pizza de pan de molde",
+        "descripcion": "Pan, tomate y queso al horno por 8 minutos."
+    },
+    {
+        "nombre": "Ensalada rápida",
+        "descripcion": "Lechuga, tomate, atún y aceite de oliva."
+    },
+    {
+        "nombre": "Quesadilla fácil",
+        "descripcion": "Tortilla con queso derretido en 2 minutos."
+    },
+    {
+        "nombre": "Colacao frío",
+        "descripcion": "Leche fría y cacao para una merienda exprés."
+    }
+]

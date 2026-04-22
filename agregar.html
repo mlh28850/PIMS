@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir receta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="funPaginaCargada()">
+    <h1>Añadir receta</h1>
+    
+
+    <main>
+        <div id="divHome" hidden="true">
+                <form id="formAgregar">
+                    <label>Nombre de la receta:</label>
+                    <input type="text" id="nombre">
+
+                    <label>Descripción:</label>
+                    <textarea id="descripcion" maxlength="200"></textarea>
+                    <p id="contador">0 / 200 caracteres</p>
+
+                    <button type="submit" class="btn">Guardar</button>
+                </form>
+
+                <p id="mensajeForm"></p>
+            </div>
+
+        <div id="divLogin">
+            <input type="text" id="inputUser" placeholder="Escribe tu Usuario">
+            <input type="password" id="inputPass" placeholder="Escribe tu Password">
+            <p id="textoRecordarme"><input type="checkbox" id="inputRecordar">¿Recordarme?</p>
+            <table>
+                <tr>
+                    <td>
+                        <button id="btnLogin" type="button" onclick="funBtnLogin()">LOGIN</button>
+                    </td>
+                    <td>
+                        <button id="btnRegister" type="button" onclick="funBtnRegister()">REGISTRAR</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+            
+        <div  id="divRegister" hidden="true">
+            <input type="text" id="inputReUser" placeholder="Escribe tu Usuario">
+            <input type="password" id="inputRePass" placeholder="Escribe tu Password">
+            <input type="password" id="inputRePass2" placeholder="Repite tu Password">
+            <table>
+                <tr>
+                    <td>
+                        <button id="btnAceptar" type="button" onclick="funBtnAceptar()">ACEPTAR</button>
+                    </td>
+                    <td>
+                        <button id="btnCancelar" type="button" onclick="funBtnCancelar()">CANCELAR</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
